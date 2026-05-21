@@ -1,0 +1,5 @@
+n=int(input("Enter The Number...."))
+d1=int(str(n)[0])
+d2=int(str(n)[1:-1])
+d3=int(str(n)[-1])
+print(d3,d2,d1,sep="")
